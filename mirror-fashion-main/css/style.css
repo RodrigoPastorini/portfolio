@@ -1,0 +1,176 @@
+body{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    position: absolute;
+    width: 940px;
+    height: 100%;
+    background-color: white;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#headerContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    height: 100px;
+}
+
+#headerLogo{
+    height: 100%;
+    width: 30%;
+    background-color: white; 
+}
+
+#navBar{
+    display: flex;    
+    width: 70%;
+    height: 100%;
+    flex-direction: column;
+}
+
+#menuOptions{  
+    width: 100%;
+    height: 50%;    
+}
+
+#menuOptions ul{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 0px;
+    list-style: none;
+}
+#menuOptions ul li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+
+#navBar img{
+    position: absolute;
+    top: 0px;    
+    right: 0px;
+    
+}
+
+#bag{
+    width: 100%;
+    height: 50%;
+}
+
+#bag img{
+    position: absolute;
+}
+
+#busca{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 40%;
+    margin: 10px 0px ;
+    background-color: white;
+    flex-direction: column;
+}
+#busca input{
+    width: relative;    
+}
+#busca b{
+    width: 15%;
+    background-color: white; 
+}
+#buttonBuscar{
+    width: 30%;
+    height: 30%;
+    margin: 0%;
+}
+#departamento{
+    position: absolute; 
+    width: 15%;
+    height: 80%;
+    margin-top: 5%;
+    left: 0px;  
+    background-color: white;
+}
+
+#departamento ul{
+    position: absolute;
+    left: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+#departamento ul li{
+    left: 0px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin-bottom: 20px;  
+}
+
+#IMAGENS{
+    position:absolute;
+    width: 70%;
+    height: 100%;
+    left: 30%;
+    top: 0%;
+}
+#IMAGENS img{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 75px;
+    top: 10%;
+}
+
+#maisVendidos{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 60%;
+    height: 45%;
+    background-image: linear-gradient(orange, blue);
+}
+
+#Promoções{
+    position: absolute;
+    bottom: 0%;
+    left: 75%;
+    width: 60%;
+    height: 45%;
+    background-image: linear-gradient(blue,orange);
+    
+}
+#tabela1{
+    position: absolute;
+    left: 0%;
+    list-style: none;    
+}
+#tabela3{
+    position: absolute;
+    left: 50%;
+    list-style: none;    
+}
+
+#f1{
+    width: 200px;
+    height: 100px;
+} 
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+ color: blue;
+}
+#aMirrorFashion{
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    -webkit-box-shadow: 10px 5px 14px 5px #000000; 
+    box-shadow: 10px 5px 14px 5px #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
